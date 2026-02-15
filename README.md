@@ -27,5 +27,5 @@ the master supplied password.
 # Restore the SSH Keys
 
 ```sh
-wget -P ~/.ssh https://github.com/duke-mai/ssh-keys/raw/refs/heads/master/private-keys.tgz.enc && openssl aes-256-cbc -salt -pbkdf2 -in ~/.ssh/private-keys.tgz.enc -out ~/.ssh/private-keys.tgz -d && tar zxvf ~/.ssh/private-keys.tgz -C ~/.ssh && rm ~/.ssh/private-keys.tgz*
+wget -P ~/.ssh https://github.com/duc-mt/ssh-keys/raw/refs/heads/master/private-keys.tgz.enc && openssl aes-256-cbc -salt -pbkdf2 -in ~/.ssh/private-keys.tgz.enc -out ~/.ssh/private-keys.tgz -d && tar zxvf ~/.ssh/private-keys.tgz -C ~/.ssh && rm ~/.ssh/private-keys.tgz*
 ```
