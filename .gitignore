@@ -1,3 +1,20 @@
-agent.env
+# Private Keys (never commit unencrypted private keys)
 id_ed25519
-known_hosts
+id_rsa
+id_ecdsa
+id_dsa
+*.pem
+*.key
+
+# Temporary archives
+private-keys.tgz
+*.tgz
+*.tar.gz
+
+# Host and agent configurations
+known_hosts*
+authorized_keys*
+agent.env
+
+# Environment & OS files
+.DS_Store
