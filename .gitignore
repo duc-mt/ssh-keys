@@ -6,6 +6,9 @@ id_dsa
 *.pem
 *.key
 
+# Restored root public keys (tracked versions live in keys/)
+/*.pub
+
 # Temporary archives
 private-keys.tgz
 *.tgz
