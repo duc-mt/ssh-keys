@@ -1,4 +1,15 @@
 #!/usr/bin/env bash
+# ==============================================================================
+# Script Name:   backup.sh
+# Description:   Implementation and logic for backup.
+# Author:        Mai Tan Duc <ducmai.network@gmail.com>
+# Created:       2026-10-10
+# Version:       1.0.0
+# License:       MIT
+# ==============================================================================
+# Usage:         ./backup.sh [options] [arguments]
+# Notes:         Automated bash utility script
+# ==============================================================================
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
